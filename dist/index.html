@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOY SOKKEA | ISTAD
+  </title>
+  <link href="../dist/style.css" rel="stylesheet">
+  <!-- cdn link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- srcipt -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Konkhmer+Sleokchher&family=Koulen&display=swap');
+    </style>
+    <link rel="shortcut icon" href="../img/image-removebg-preview (8).png" type="image/x-icon">
+
+</head>
+
+<body class="bg-gray-300">
+
+  <div class="bg-transparent ">
+    <header class=" bg-transparent  fixed inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-24 w-24" src="../img/home.png" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" />
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Open main menu</span>
+            <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+              aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="./index2.html" target="_blank"
+            class="text-sm font-semibold text-blue-600 hover:underline hover:decoration-blue-800 "><b>Product</b></a>
+          <a href="#"
+            class="text-sm font-semibold text-blue-600 hover:underline  hover:decoration-blue-800 "><b>Features</b></a>
+          <a href="#"
+            class="text-sm font-semibold text-blue-600 hover:underline  hover:decoration-blue-800 "><b>Marketplace</b></a>
+          <a href="#"
+            class="text-sm font-semibold text-blue-600 hover:underline  hover:decoration-blue-800 "><b>Company</b></a>
+        </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div class="lg:hidden" role="dialog" aria-modal="true">
+        <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-50"></div>
+        <div
+          class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-transparent p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img class="h-14 w-14" src="https://i.pinimg.com/736x/77/0a/52/770a529be34109d0add77f032e412c19.jpg"
+                alt="" />
+            </a>
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Close menu</span>
+              <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                aria-hidden="true" data-slot="icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Product</a>
+                <a href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Trending</a>
+                <a href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About
+                  Us</a>
+                <a href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
+              </div>
+              <div class="py-6">
+                <a href="#"
+                  class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log
+                  in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="relative isolate px-6 pt-14 lg:px-8 bg-no-repeat bg-cover w-full h-full"
+      style="background-image: url('https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg') ; width: 100%; height: 100%;"
+      data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <!-- <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 bg-blue-500"
+                aria-hidden="true">
+                <div class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75"
+                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+                </div>
+            </div> -->
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-48">
+        <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+          <h1 class="text-5xl font-semibold tracking-tight text-balance text-gray-200 sm:text-5xl"
+            data-aos="zoom-in-down">Make The Better
+            Living With Us </h1>
+
+
+
+        </div>
+        <p class="mt-8 text-lg font-medium text-pretty text-blue-500 sm:text-xl/8 text-center" data-aos="fade-down"
+          data-aos-easing="linear" data-aos-duration="1500">The happiness of customer is our
+          mission <br>Living in comfortable zone is the best place ever</p>
+        <div class="text-center">
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#"
+              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              data-aos="zoom-in-left">Get
+              started</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <main>
+
+    <h1 class="text-center text-5xl text-blue-600 font-Fraunces ">
+      <br><b>Testimonial</b>
+    </h1>
+    <div class="container grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 p-9 m-auto gap-6 ">
+      <div class="bg-gray-300 shadow-lg shadow-dark-500/50">
+        <ul role="list" class=" p-4 gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="size-20 rounded-full"
+                src="https://i.pinimg.com/736x/c3/3e/43/c33e43c6ada075866d5d6df3c7162ac4.jpg" alt=""
+                data-aos="zoom-in" />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Leslie Alexander</h3>
+                <p class="text-sm/6 font-semibold text-indigo-600">Manager</p>
+              </div>
+            </div>
+            <div> 
+              <p class="text-blue-700">I love this website so much because <br> this website recommand me the best home
+                ever.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-300 shadow-lg shadow-dark-500/50">
+        <ul role="list" class=" p-4 gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="size-20 rounded-full"
+                src="https://i.pinimg.com/736x/5e/97/09/5e97096429ba297c40a33f615c934141.jpg" alt=""
+                data-aos="zoom-in" />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Lesly Livi</h3>
+                <p class="text-sm/6 font-semibold text-indigo-600">Pre-CEO</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-700">I love this website so much because <br> this website recommand me the best home
+                ever.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- 3 -->
+      <div class="bg-gray-300 shadow-lg shadow-dark-500/50">
+        <ul role="list" class=" p-4 gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6 ">
+              <img class="size-20 rounded-full"
+                src="https://i.pinimg.com/736x/c6/62/af/c662afa6893e16b28c953ded794dbcea.jpg" alt=""
+                data-aos="zoom-in" />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Danhil Alexander</h3>
+                <p class="text-sm/6 font-semibold text-indigo-600"> CEO</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-700">I love this website so much because <br> this website recommand me the best home
+                ever.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-gray-300 shadow-lg shadow-dark-500/50">
+        <ul role="list" class=" p-4 gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="size-20 rounded-full"
+                src="https://i.pinimg.com/736x/c9/34/f3/c934f36add690e6df4f2d95ea82fa13d.jpg" alt=""
+                data-aos="zoom-in" />
+              <div>
+                <h3 class="text-base/7 font-semibold tracking-tight text-gray-900">Devit Alexander</h3>
+                <p class="text-sm/6 font-semibold text-indigo-600">COO</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-blue-700">I love this website so much because <br> this website recommand me the best home
+                ever.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <h1 class="text-center text-5xl text-blue-600 font-Fraunces"> <b> Our Interior Design </b></h1>
+    <div
+      class="container grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 p-9 m-auto bg-gray-350 gap-6 shadow-lg shadow-dark-500/50">
+      <div>
+        <img src="https://i.pinimg.com/736x/33/80/58/3380589d3796bf1a2dcbba9764ee94f0.jpg" alt="" data-aos="zoom-in">
+      </div>
+      <img src="https://i.pinimg.com/736x/f3/69/a9/f369a9ebca8830d549d8ab24cac0f07e.jpg" alt="" data-aos="zoom-in">
+      <div>
+        <img src="https://i.pinimg.com/736x/b3/14/b3/b314b37b40ff6cdfe00cdcf7f782aa0a.jpg" alt="" data-aos="zoom-in">
+      </div>
+      <div>
+        <img src="https://i.pinimg.com/736x/35/55/0f/35550f75d261f7ac97d36c49735f83be.jpg" alt="" data-aos="zoom-in">
+      </div>
+    </div>
+  </main>
+
+
+  <!-- <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">
+       <img src="https://i.pinimg.com/736x/fd/22/ec/fd22ec43d62b73f4dff22e1abaf04418.jpg"   alt="">
+       
+</div> -->
+
+
+  <!-- <footer class="bg-white rounded-lg shadow-sm dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+          class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+    </div>
+  </footer> -->
+
+  <footer class="p-4 bg-gray-300 md:p-8 lg:p-10 dark:bg-gray-800">
+    <div class="mx-auto max-w-screen-xl text-center">
+      <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+
+        <img class="h-34 w-34" src="../img/home.png" alt="" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000" />
+
+      </a>
+      <p class="my-6 text-gray-500 dark:text-gray-400"></p>
+      <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Premium</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6 ">Campaigns</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Blog</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Affiliate Program</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">FAQs</a>
+        </li>
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">Contact</a>
+        </li>
+      </ul>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025-2026 <a href="#"
+          class="hover:underline">™</a>. All Rights Reserved.</span>
+    </div>
+  </footer>
+
+
+</body>
+<script>
+  AOS.init();
+</script>
+
+</html>
